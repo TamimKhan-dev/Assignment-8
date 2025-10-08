@@ -12,11 +12,11 @@ const HomeHero = () => {
         <h1 className="text-7xl font-semibold">We Build <br /> <span className="bg-gradient-to-br from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent">Productive</span> Apps</h1>
         <p className="text-[#627382] mt-3 mb-7">At HERO.IO , we craft innovative apps designed to make everyday life simpler, smarter, and more exciting.<br /> Our goal is to turn your ideas into digital experiences that truly make an impact.</p>
         <div className="flex gap-2">
-            <a href="#" className="btn py-5 bg-transparent border-1.5 border-[#D2D2D2] flex gap-2">
+            <a href="https://play.google.com/store/apps?hl=en" target="_blank" className="btn py-5 bg-transparent border-1.5 border-[#D2D2D2] flex gap-2">
                 <img src={playStoreImg} alt="" />
                 Google Play
             </a>
-            <a href="#" className="btn py-5 bg-transparent border-1.5 border-[#D2D2D2] flex gap-2">
+            <a href="https://www.apple.com/app-store/" target="_blank" className="btn py-5 bg-transparent border-1.5 border-[#D2D2D2] flex gap-2">
                 <img src={appStoreImg} alt="" />
                 App Store
             </a>

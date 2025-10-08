@@ -97,7 +97,7 @@ const Navbar = () => {
       </div>
       <div className="navbar-end">
         <a
-          href="https://github.com/TamimKhan-dev/Assignment-8.git"
+          href="https://github.com/TamimKhan-dev"
           target="_blank"
           className="btn py-6 rounded-md bg-gradient-to-br from-[#632EE3] to-[#9F62F2] text-white text-lg"
         >
