@@ -1,6 +1,7 @@
 import React from "react";
 import { FaGithub } from "react-icons/fa";
-import logoImg from '../../assets/logo.png'
+import logoImg from "../../assets/logo.png";
+import { Link, NavLink } from "react-router";
 
 const Navbar = () => {
   return (
@@ -47,23 +48,61 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-        <a className="flex gap-2 items-center justify-center text-xl cursor-pointer"><img className="w-10 h-10" src={logoImg} alt="Logo Image" /> <span className="font-semibold bg-gradient-to-br from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent">App Store</span></a>
+        <Link to='/' className="flex gap-2 items-center justify-center text-xl cursor-pointer">
+          <img className="w-10 h-10" src={logoImg} alt="Logo Image" />{" "}
+          <span className="font-semibold bg-gradient-to-br from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent">
+            App Store
+          </span>
+        </Link>
       </div>
       <div className="navbar-center hidden lg:flex">
-        <ul className="menu menu-horizontal px-1 text-lg">
+        <ul className="flex gap-5 px-1 text-xl">
           <li>
-            <a>Home</a>
+            <NavLink
+              to="/"
+              className={({ isActive }) =>
+                isActive
+                  ? "border-b-2 border-[#9F62F2] bg-gradient-to-br from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent"
+                  : ""
+              }
+            >
+              Home
+            </NavLink>
           </li>
           <li>
-            <a>Apps</a>
+            <NavLink
+              to="/apps"
+              className={({ isActive }) =>
+                isActive
+                  ? "border-b-2 border-[#9F62F2] bg-gradient-to-br from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent"
+                  : ""
+              }
+            >
+              Apps
+            </NavLink>
           </li>
           <li>
-            <a>Installation</a>
+            <NavLink
+              to="installation"
+              className={({ isActive }) =>
+                isActive
+                  ? "border-b-2 border-[#9F62F2] bg-gradient-to-br from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent"
+                  : ""
+              }
+            >
+              Installation
+            </NavLink>
           </li>
         </ul>
       </div>
       <div className="navbar-end">
-        <a className="btn py-6 rounded-md bg-gradient-to-br from-[#632EE3] to-[#9F62F2] text-white text-lg"><FaGithub style={{fontSize: '20px'}}/> Contribute</a>
+        <a
+          href="https://github.com/TamimKhan-dev/Assignment-8.git"
+          target="_blank"
+          className="btn py-6 rounded-md bg-gradient-to-br from-[#632EE3] to-[#9F62F2] text-white text-lg"
+        >
+          <FaGithub style={{ fontSize: "20px" }} /> Contribute
+        </a>
       </div>
     </div>
   );
