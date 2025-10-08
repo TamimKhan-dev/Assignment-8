@@ -1,0 +1,290 @@
+[
+  {
+    "image": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-03-21/28174051188_215180e097a3dd513d6d_512.png",
+    "title": "Todoist",
+    "companyName": "Doist",
+    "id": 1001,
+    "description": "The world's most beloved to-do list and task manager. Organize your work and life with projects, priorities, and natural language input.",
+    "size": 75,
+    "reviews": 1500000,
+    "ratingAvg": 4.6,
+    "downloads": 30000000,
+    "ratings": [
+      { "name": "1 star", "count": 25000 },
+      { "name": "2 star", "count": 20000 },
+      { "name": "3 star", "count": 55000 },
+      { "name": "4 star", "count": 350000 },
+      { "name": "5 star", "count": 1050000 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/NWRVVF6zXvmcqspJwdFOKcQG6OlsNwpMOxED_DgB6B2BBDeWwAeWZKZxGhgqU0LQVJU",
+    "title": "Forest: Stay Focused",
+    "companyName": "SeekrTech Co.",
+    "id": 1002,
+    "description": "A unique gamified timer to help you stay focused, beat phone addiction, and plant real trees on Earth.",
+    "size": 90,
+    "reviews": 750000,
+    "ratingAvg": 4.8,
+    "downloads": 20000000,
+    "ratings": [
+      { "name": "1 star", "count": 3000 },
+      { "name": "2 star", "count": 2000 },
+      { "name": "3 star", "count": 10000 },
+      { "name": "4 star", "count": 155000 },
+      { "name": "5 star", "count": 580000 }
+    ]
+  },
+  {
+    "image": "https://cdn.prod.website-files.com/61b258bb599d1716501d9290/66e61707f73fe8062a7dee2a_asana-logo.png",
+    "title": "Asana: Work Management",
+    "companyName": "Asana, Inc.",
+    "id": 1003,
+    "description": "Manage your team projects and individual tasks. Keep everyone organized and on track with clear objectives.",
+    "size": 110,
+    "reviews": 55000,
+    "ratingAvg": 4.1,
+    "downloads": 5000000,
+    "ratings": [
+      { "name": "1 star", "count": 5000 },
+      { "name": "2 star", "count": 4000 },
+      { "name": "3 star", "count": 8000 },
+      { "name": "4 star", "count": 18000 },
+      { "name": "5 star", "count": 20000 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/2496/2496094.png",
+    "title": "Evernote - Note Organizer",
+    "companyName": "Evernote Corporation",
+    "id": 1004,
+    "description": "Capture ideas, make to-do lists, and scan documents. Your indispensable tool for note-taking and organization.",
+    "size": 130,
+    "reviews": 1850000,
+    "ratingAvg": 3.9,
+    "downloads": 100000000,
+    "ratings": [
+      { "name": "1 star", "count": 350000 },
+      { "name": "2 star", "count": 150000 },
+      { "name": "3 star", "count": 200000 },
+      { "name": "4 star", "count": 450000 },
+      { "name": "5 star", "count": 700000 }
+    ]
+  },
+  {
+    "image": "https://yt3.googleusercontent.com/KdRHlOi0oc4pqqNimkIyBfOC9wLg7Q4RDq7QJB6gznh8Ag-8mvedQpySw_nqey3kSq-Eit0UcQ=s900-c-k-c0x00ffffff-no-rj",
+    "title": "Trello: Manage Projects",
+    "companyName": "Atlassian",
+    "id": 1005,
+    "description": "Visual work management tool using Kanban boards. Organize everything from small tasks to large projects.",
+    "size": 80,
+    "reviews": 450000,
+    "ratingAvg": 4.4,
+    "downloads": 50000000,
+    "ratings": [
+      { "name": "1 star", "count": 10000 },
+      { "name": "2 star", "count": 15000 },
+      { "name": "3 star", "count": 45000 },
+      { "name": "4 star", "count": 150000 },
+      { "name": "5 star", "count": 230000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Slack_icon_2019.svg/1200px-Slack_icon_2019.svg.png",
+    "title": "Slack",
+    "companyName": "Slack Technologies",
+    "id": 1006,
+    "description": "Your digital headquarters. Connect your team, simplify communication, and align on work across your organization.",
+    "size": 140,
+    "reviews": 600000,
+    "ratingAvg": 4.5,
+    "downloads": 100000000,
+    "ratings": [
+      { "name": "1 star", "count": 15000 },
+      { "name": "2 star", "count": 10000 },
+      { "name": "3 star", "count": 35000 },
+      { "name": "4 star", "count": 180000 },
+      { "name": "5 star", "count": 360000 }
+    ]
+  },
+  {
+    "image": "https://sparkmailapp.com/img/spark2/common/spark_share.png?1626359431",
+    "title": "Spark Mail",
+    "companyName": "Readdle",
+    "id": 1007,
+    "description": "Smart, focused email application for professionals. Prioritize important emails and achieve Inbox Zero.",
+    "size": 105,
+    "reviews": 95000,
+    "ratingAvg": 4.7,
+    "downloads": 10000000,
+    "ratings": [
+      { "name": "1 star", "count": 500 },
+      { "name": "2 star", "count": 500 },
+      { "name": "3 star", "count": 3000 },
+      { "name": "4 star", "count": 28000 },
+      { "name": "5 star", "count": 63000 }
+    ]
+  },
+  {
+    "image": "https://static0.howtogeekimages.com/wordpress/wp-content/uploads/2023/09/duolingo-generic-hero.jpg",
+    "title": "Duolingo: Language Lessons",
+    "companyName": "Duolingo",
+    "id": 1008,
+    "description": "Learn a new language with fun, bite-sized lessons. It’s effective, and it’s free.",
+    "size": 125,
+    "reviews": 15000000,
+    "ratingAvg": 4.7,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 200000 },
+      { "name": "2 star", "count": 100000 },
+      { "name": "3 star", "count": 250000 },
+      { "name": "4 star", "count": 3900000 },
+      { "name": "5 star", "count": 10560000 }
+    ]
+  },
+  {
+    "image": "https://www.logo.wine/a/logo/Spotify/Spotify-Icon-White-Dark-Background-Logo.wine.svg",
+    "title": "Spotify: Music and Podcasts",
+    "companyName": "Spotify AB",
+    "id": 1009,
+    "description": "Stream millions of songs and podcasts from around the world. Discover new music and create your own playlists.",
+    "size": 170,
+    "reviews": 40000000,
+    "ratingAvg": 4.4,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 1500000 },
+      { "name": "2 star", "count": 1000000 },
+      { "name": "3 star", "count": 3500000 },
+      { "name": "4 star", "count": 10000000 },
+      { "name": "5 star", "count": 24000000 }
+    ]
+  },
+  {
+    "image": "https://store-images.s-microsoft.com/image/apps.28704.9007199266243744.f4ca7a76-4e1c-4c9a-a3e8-7781669929be.cbfaf0e9-4ec2-4e6a-a2bc-18395dab2f0b",
+    "title": "Picsart Photo Editor",
+    "companyName": "PicsArt, Inc.",
+    "id": 1010,
+    "description": "All-in-one photo and video editor with filters, effects, collage maker, and drawing tools. Unleash your creativity.",
+    "size": 200,
+    "reviews": 13000000,
+    "ratingAvg": 4.2,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 700000 },
+      { "name": "2 star", "count": 500000 },
+      { "name": "3 star", "count": 1800000 },
+      { "name": "4 star", "count": 4000000 },
+      { "name": "5 star", "count": 6000000 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/S76GphUu2pZa249td2Bb4XAhLcPRrFdL1zp_5qU1ouukvRq9r0-8jJ-CruaTtdT6g84",
+    "title": "Calm",
+    "companyName": "Calm.com, Inc.",
+    "id": 1011,
+    "description": "Meditation, sleep, and relaxation app. Lower stress, reduce anxiety, and sleep better with guided sessions.",
+    "size": 160,
+    "reviews": 1100000,
+    "ratingAvg": 4.5,
+    "downloads": 100000000,
+    "ratings": [
+      { "name": "1 star", "count": 30000 },
+      { "name": "2 star", "count": 20000 },
+      { "name": "3 star", "count": 50000 },
+      { "name": "4 star", "count": 300000 },
+      { "name": "5 star", "count": 700000 }
+    ]
+  },
+  {
+    "image": "https://i.pinimg.com/736x/b0/9f/08/b09f08ccb3d2866cbbefaf43df81df5d.jpg",
+    "title": "Uber",
+    "companyName": "Uber Technologies, Inc.",
+    "id": 1012,
+    "description": "Request a ride, track your driver, and get to your destination quickly and reliably.",
+    "size": 100,
+    "reviews": 25000000,
+    "ratingAvg": 4.1,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 1500000 },
+      { "name": "2 star", "count": 1000000 },
+      { "name": "3 star", "count": 3000000 },
+      { "name": "4 star", "count": 7500000 },
+      { "name": "5 star", "count": 12000000 }
+    ]
+  },
+  {
+    "image": "https://verticalresponse.com/wp-content/uploads/2021/01/pinterest-logo.png",
+    "title": "Pinterest",
+    "companyName": "Pinterest, Inc.",
+    "id": 1013,
+    "description": "A visual discovery engine for finding ideas for all your projects and interests.",
+    "size": 95,
+    "reviews": 9500000,
+    "ratingAvg": 4.6,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 100000 },
+      { "name": "2 star", "count": 80000 },
+      { "name": "3 star", "count": 320000 },
+      { "name": "4 star", "count": 2500000 },
+      { "name": "5 star", "count": 6500000 }
+    ]
+  },
+  {
+    "image": "https://cdn1.epicgames.com/offer/879b0d8776ab46a59a129983ba78f0ce/genshintall_1200x1600-4a5697be3925e8cb1f59725a9830cafc",
+    "title": "Genshin Impact",
+    "companyName": "miHoYo Limited",
+    "id": 1014,
+    "description": "An open-world action RPG with stunning visuals and deep elemental combat.",
+    "size": 2500,
+    "reviews": 5500000,
+    "ratingAvg": 4.3,
+    "downloads": 100000000,
+    "ratings": [
+      { "name": "1 star", "count": 400000 },
+      { "name": "2 star", "count": 200000 },
+      { "name": "3 star", "count": 500000 },
+      { "name": "4 star", "count": 1400000 },
+      { "name": "5 star", "count": 3000000 }
+    ]
+  },
+  {
+    "image": "https://www.top-bank.ch/images/logo_540/paypal.png",
+    "title": "PayPal: Send, Spend, Manage",
+    "companyName": "PayPal, Inc.",
+    "id": 1015,
+    "description": "Send money, pay online, and manage your finances securely in one app.",
+    "size": 85,
+    "reviews": 1500000,
+    "ratingAvg": 4.2,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 80000 },
+      { "name": "2 star", "count": 70000 },
+      { "name": "3 star", "count": 150000 },
+      { "name": "4 star", "count": 450000 },
+      { "name": "5 star", "count": 750000 }
+    ]
+  },
+  {
+    "image": "https://img.freepik.com/premium-vector/twitch-logo_578229-259.jpg?semt=ais_hybrid&w=740&q=80",
+    "title": "Twitch: Live Game Streaming",
+    "companyName": "Twitch Interactive, Inc.",
+    "id": 1016,
+    "description": "Live streaming video platform for gamers, music, and creative content.",
+    "size": 180,
+    "reviews": 9000000,
+    "ratingAvg": 4.3,
+    "downloads": 100000000,
+    "ratings": [
+      { "name": "1 star", "count": 400000 },
+      { "name": "2 star", "count": 300000 },
+      { "name": "3 star", "count": 700000 },
+      { "name": "4 star", "count": 2600000 },
+      { "name": "5 star", "count": 5000000 }
+    ]
+  }
+]
