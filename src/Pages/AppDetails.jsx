@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router';
 import useApps from '../hooks/useApps';
 import downloadImg from '../assets/icon-downloads.png'
@@ -6,16 +6,28 @@ import starImg from '../assets/icon-ratings.png'
 import reviewImg from '../assets/icon-review.png'
 import formatCountNumbers from '../utilities/formatCountDownload';
 import HorizontalBarChart from './horizontalBarChart';
+import { addToStorage } from '../utilities/addToStorage';
+import { toast } from 'react-toastify';
+import LoadingSpinner from '../Components/LoadingSpinner';
 
 
 
 const AppDetails = () => {
+    const [disabled, setDisabled] = useState(false);
     const { apps, loading, error } = useApps();
     const { id } = useParams();
     const singleData = apps.find(app => app.id === parseInt(id));
 
+    useEffect(() => {
+        const value = localStorage.getItem('applist');
+        if (!value) return;
+
+        const appList = JSON.parse(value);
+        setDisabled(appList.includes(id));
+    }, [id])
+
     if (loading) {
-        return <div className='w-11/12 mx-auto py-10'>Loading App Details...</div>;
+        return <LoadingSpinner />;
     }
 
     if (error) {
@@ -26,8 +38,17 @@ const AppDetails = () => {
         return <div className='w-11/12 mx-auto py-10'>App not found!</div>;
     }
 
-    const { image, title, companyName, size, downloads, ratingAvg, reviews, ratings, description } = singleData;
-    
+    const { image, title, companyName, size, downloads, ratingAvg, reviews, ratings, description } = singleData;  
+
+    const handleInstallation = (id) => {
+        addToStorage(id);
+        setDisabled(true)
+        if (!disabled) {
+            toast('The App has been Installed!!')
+        }
+    }
+
+
     return (
         <div className='w-11/12 mx-auto py-10'>
 
@@ -61,7 +82,7 @@ const AppDetails = () => {
                             </div>
 
                         </div>
-                        <button className='btn bg-[#00D390] text-white'>Install Now ({size} MB)</button>
+                        <button onClick={() => handleInstallation(id)} className={`btn bg-[#00D390] text-white`}>{disabled ? 'Installed' : `Install Now (${size} MB)`}</button>
                     </div>
                 </div>
             </div>

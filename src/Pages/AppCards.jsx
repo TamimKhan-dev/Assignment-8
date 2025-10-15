@@ -4,28 +4,6 @@ import starIcon from '../assets/icon-ratings.png';
 import { Link } from 'react-router';
 import formatCountNumbers from '../utilities/formatCountDownload';
 
-//  const countDownload = (downloads) => {
-//         const num = downloads.toString();
-//         let result = '';
-//         switch(num.length) {
-//             case 7 :
-//                result = num.slice(0, 1) + "m"
-//               break;
-//             case 8 :
-//                 result = num.slice(0, 2) + "m"
-//               break;
-//             case 9 :
-//                 result = num.slice(0, 3) + "m"
-//               break;
-//             case 10 :
-//                 result = num.slice(0, 1) + "b"
-//               break;  
-//             default :
-//                result = 'less then 1million';
-//               break;
-//         }
-//         return result
-//     }
 
 const AppCards = ({ apps }) => {
     const { image, downloads, title, id, ratingAvg } = apps;
