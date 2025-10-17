@@ -9,6 +9,7 @@ import HorizontalBarChart from './horizontalBarChart';
 import { addToStorage } from '../utilities/addToStorage';
 import { toast } from 'react-toastify';
 import LoadingSpinner from '../Components/LoadingSpinner';
+import AppNotFound2 from './AppNotFound2';
 
 
 
@@ -35,7 +36,7 @@ const AppDetails = () => {
     }
 
     if (!singleData) {
-        return <div className='w-11/12 mx-auto py-10'>App not found!</div>;
+        return <AppNotFound2 />;
     }
 
     const { image, title, companyName, size, downloads, ratingAvg, reviews, ratings, description } = singleData;  
