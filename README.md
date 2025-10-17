@@ -1,16 +1,10 @@
-# React + Vite
+## App Name: 📱 App Store
+**Description:** App Store is your go-to platform for finding the most productive and reliable apps in one place. Whether you’re a student, professional, or creator, this app helps you discover tools that make your life simpler, smarter, and more organized. From task managers to note-taking apps, time trackers to focus boosters, every app featured here is carefully selected to enhance efficiency and help you achieve more every day.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The interface is clean, fast, and user-friendly—so you can explore, learn, and download apps effortlessly. Each app listing includes key details, ratings, and insights to help you choose the right one for your workflow.
 
-Currently, two official plugins are available:
+With App Store, you don’t waste time searching endlessly; you find what truly matters. Stay productive, stay inspired, and unlock your full potential—one app at a time.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🔧 Technologies has been useed
+- Javascript(React JS, React router, React Icons, React Toastify)  
+- CSS(TailwindCSS, DaisyUI)
